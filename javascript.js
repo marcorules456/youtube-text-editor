@@ -2,7 +2,7 @@ var topic=$("#key").val();
 var limit= 1;
  
  var youtube = "https://www.youtube.com/embed/";
-var url="https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4tz1TDHpgGTkAyNR9ycjU0cixA6bDNnk&part=snippet&maxResults="+limit+"&type=video&q=";
+var url="https://www.googleapis.com/youtube/v3/search?&relevanceLanguage=en&key=AIzaSyC4tz1TDHpgGTkAyNR9ycjU0cixA6bDNnk&part=snippet&maxResults="+limit+"&type=video&q=";
 
 
 
