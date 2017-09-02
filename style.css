@@ -1,0 +1,28 @@
+.related {
+    position:relative;
+	top:500px;
+	border:2px solid black;
+	height:55px;
+	width:495px;
+	
+	
+}
+.col-xs-3{
+	height:50px;
+	padding-left:30px;
+	width:115px;
+	position:relative;
+	right:20px;
+	
+	
+}
+.frames {
+	height:50px;
+
+	width:110px;
+	
+	margin-left:20px;
+	position:relative;
+	right:10px;
+	
+}
