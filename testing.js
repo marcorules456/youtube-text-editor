@@ -1,4 +1,4 @@
-$(document).ready(function(){
+&relevanceLanguage=en$(document).ready(function(){
 	$("#box").hide(100);
 	
 }
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	var videos = $('#key').val().trim();
 	var URL = "https://www.googleapis.com/youtube/v3/";
 	var key = "AIzaSyC4tz1TDHpgGTkAyNR9ycjU0cixA6bDNnk";
-	var videoSearch = URL + "search?&q=" + videos + "&part=snippet&chart=mostPopular&videoCategoryId=27&type=video&maxResults=1&key=" + key;
+	var videoSearch = URL + "search?&relevanceLanguage=en&q=" + videos + "&part=snippet&chart=mostPopular&videoCategoryId=27&type=video&maxResults=1&key=" + key;
 
 
 
